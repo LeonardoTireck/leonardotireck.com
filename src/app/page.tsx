@@ -9,8 +9,13 @@ export default function Page() {
         </p>
 
         <div className="space-x-4">
-          <a href="https://github.com/LeonardoTireck">GitHub</a>
-          <a href="https://www.linkedin.com/in/leonardo-tireck/?locale=en-US">
+          <a target="_blank" href="https://github.com/LeonardoTireck">
+            GitHub
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/leonardo-tireck/?locale=en-US"
+          >
             LinkedIn
           </a>
         </div>
