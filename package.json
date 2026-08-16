@@ -1,4 +1,21 @@
 {
+  "name": "leonardotireck.com",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Leonardo Tireck's personal website and software development portfolio.",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Leonardo Tireck",
+    "url": "https://github.com/LeonardoTireck"
+  },
+  "homepage": "https://leonardotireck.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoTireck/leonardotireck.com.git"
+  },
+  "engines": {
+    "node": ">=24.0.0 <25.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,14 +29,12 @@
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@types/node": "26.2.0",
+    "@types/node": "^24.0.0",
     "@types/react": "19.2.18",
-    "eslint": "^10.8.1",
-    "eslint-plugin-react": "^7.37.5",
-    "globals": "^17.11.0",
-    "typescript": "^6.0.3",
-    "typescript-eslint": "^8.67.0"
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.3.1",
+    "typescript": "^6.0.3"
   },
   "packageManager": "pnpm@11.22.0"
 }
